@@ -9,10 +9,10 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-@RunWith(Parameterized.class)
+//@RunWith(Parameterized.class)
 public class MemberStatusTest {
 	
-	@Parameters(name = "{index}: {0} initially had {1} points, earns {2} points, should become {3} ")
+	//@Parameters(name = "{index}: {0} initially had {1} points, earns {2} points, should become {3} ")
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][]{
                 {Regular,   0,   100,  Regular},
@@ -38,7 +38,7 @@ public class MemberStatusTest {
 	}
 	
 
-	@Test
+	//@Test
 	public void memberShouldUpdateStatusBasedOnPoint() {
 		LoyaltyMember loyaltyMember = LoyaltyMember.withMemberNumber("1234")
 				.named("Somkiat", "Puisungnoen")
