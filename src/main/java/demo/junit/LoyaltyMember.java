@@ -19,7 +19,7 @@ public class LoyaltyMember {
 		return loyaltyMember;
 	}
 
-	public LoyaltyMember withStatus(String string) {
+	public LoyaltyMember withCurrentStatus(String string) {
 		return loyaltyMember;
 	}
 
